@@ -6,7 +6,7 @@ import random
 def esOrdenada(lista):
     res = True
     for i in range(len(lista)-1):
-        if(lista[i]>=lista[i+1]):
+        if(lista[i]>lista[i+1]):
             res = False
             break
     return res
